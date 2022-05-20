@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "e2e": "cypress open",
+    "e2e:headless": "cypress run"
+  },
   "devDependencies": {
     "@types/node": "^17.0.35",
     "cypress": "^9.6.1",
